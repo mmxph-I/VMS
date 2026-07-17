@@ -36,12 +36,9 @@ body::before {
   z-index: 0;
 }
 
-/* ── LOGIN ── */
+/* ── LOGIN ── (overlay removed; hidden fields kept for JS compatibility) */
 #login-overlay {
-  position: fixed; inset: 0; z-index: 100;
-  background: #0F0F1A;
-  display: flex; align-items: center; justify-content: center;
-  padding: 1.5rem;
+  display: none !important;
 }
 .login-card {
   background: rgba(255,255,255,0.06);
